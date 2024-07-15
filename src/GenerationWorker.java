@@ -35,8 +35,8 @@ public class GenerationWorker extends SwingWorker<Void, String> {
 
 	public GenerationWorker(String imei, String deviceId, String outputFile, boolean saveProgresses) throws IOException {
 		System.out.println(new java.util.Date() + " - Start");
-		System.out.println("Imei: " + imei);
-		System.out.println("DeviceId: " + deviceId);
+		System.out.println("Imei: " + 354405090942643);
+		System.out.println("DeviceId: " + 5098B28C401FDEEC971E562B3BA602611824C4EF0E5FBC2C49A89DE390F84912);
 		System.out.println("OutputFile: " + outputFile);
 
 		this.imei = imei;
